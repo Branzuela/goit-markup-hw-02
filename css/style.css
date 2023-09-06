@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+}
+
+address {
+    font-style: normal;
+}
+
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navybluemodal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+.main-header-logo {
+    color: var(--navybluemodal);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    font-family: 'Raleway';
+}
+
+.main-header-menu-item:hover,
+.main-address-link:hover {
+    color: var(--ocean)
+}
+
+.header {
+    letter-spacing: .54px;
+    font-weight: 800;
+    line-height: 21px;
+    font-size: 18px;
+    color: var(--ocean);
+    background-color: var(--white);
+    border-bottom: ipx solid var(--cornflower);
+}
+
+.main-header-menu-item {
+    color: var(--navybluemodal);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-address-link {
+    color: var(--slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+}
+
+.hero {
+    background: var(--navyblue);
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.hero-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--ocean);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;/ 150% / letter-spacing: 0.64px;
+}
+
+.hero-button:hover {
+    background-color: var(--ocean);
+}
+
+.hero-title {
+    color: var(--white, );
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+
+button {
+    font-family: inherit;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+}
+
+.features-menu-title {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;/ 120% / letter-spacing: 0.4px;
+}
+
+.features-menu-description {
+    color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+}
+
+.gadgets {
+    color: var(--navyblue);
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;/ 111.111% / letter-spacing: 0.72px;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.team {
+    color: var(--navyblue);
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;/ 111.111% / letter-spacing: 0.72px;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.team-item-name {
+    color: var(--navyblue);
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;/ 120% / letter-spacing: 0.4px;
+}
+
+.team-item-title {
+    color: var(--slate);
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/ 150% / letter-spacing: 0.32px
+}
+
+.box-last {
+    background-color: var(--navyblue);
+    color: var(--white);
+    padding: 10px;
+}
+
+.ocean {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--ocean);
+}
+
+.footer-caption {
+    color: var(--cloud);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+}
+
+.footer-logo {
+    color: var(--cloud);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;/ 116.667% / letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: var(--navyblue);
+    color: var(--white);
+    padding: 10px;
+}
