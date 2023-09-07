@@ -17,7 +17,8 @@ a {
     color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 address {
@@ -75,7 +76,8 @@ address {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .hero {
@@ -91,12 +93,13 @@ address {
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
-    background: var(--ocean);
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--white);
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;/ 150% / letter-spacing: 0.64px;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
 
 .hero-button:hover {
@@ -123,32 +126,36 @@ button {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;/ 120% / letter-spacing: 0.4px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .features-menu-description {
     color: var(--slate);
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
-.gadgets {
+.gadgets-title {
     color: var(--navyblue);
     text-align: left;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;/ 111.111% / letter-spacing: 0.72px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
     font-style: normal;
 }
 
-.team {
+.team-title {
     color: var(--navyblue);
     text-align: left;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;/ 111.111% / letter-spacing: 0.72px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
     font-style: normal;
 }
@@ -159,7 +166,8 @@ button {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;/ 120% / letter-spacing: 0.4px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 .team-item-title {
@@ -168,13 +176,8 @@ button {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;/ 150% / letter-spacing: 0.32px
-}
-
-.box-last {
-    background-color: var(--navyblue);
-    color: var(--white);
-    padding: 10px;
+    line-height: 24px;
+    letter-spacing: 0.32px
 }
 
 .ocean {
@@ -192,7 +195,8 @@ button {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;/ 150% / letter-spacing: 0.32px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .footer-logo {
@@ -201,7 +205,8 @@ button {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;/ 116.667% / letter-spacing: 0.54px;
+    line-height: 21px;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
